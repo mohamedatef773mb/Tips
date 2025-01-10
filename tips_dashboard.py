@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 
-uploaded_file= r"data\tips.csv"
+uploaded_file= r"data/tips.csv"
 data=pd.read_csv(uploaded_file)
 
 st.title("Tips Data Dashboard")
